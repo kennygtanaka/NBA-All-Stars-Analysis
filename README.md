@@ -23,7 +23,7 @@ Final Project (creative/open-ended) for MTH123 "Math for Data Science" course at
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;After cleaning the data, I explored the data to see if there are any variables that are correlated with making the all star team. To get started, I first made a scatterplot showing height vs weight. 
 
-![alt text](/images/image_1.png?raw=true)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![alt text](/images/image_1.png?raw=true)
 
 ## Process and Results 
 
