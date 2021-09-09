@@ -148,7 +148,7 @@ Sparse PCA Cluster 6 - Dominant Power Forwards / Centers
 
 ## References
 
-[1]	Zou, Hui. Sparse Principal Component Analysis , 2006, web.stanford.edu/~hastie/Papers/spc_jcgs.pdf. 
+[1]	Zou, Hui. Sparse Principal Component Analysis , 2006, web.stanford.edu/~hastie/Papers/spc_jcgs.pdf
 
 [2]	Mejia, Felix. “NBA All Star Game 2000-2016.” Kaggle, 4 Feb. 2020, www.kaggle.com/fmejia21/nba-all-star-game-20002016. 
 
