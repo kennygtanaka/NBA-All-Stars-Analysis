@@ -63,12 +63,15 @@ Final Project (creative/open-ended) for MTH123 "Math for Data Science" course at
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;To solve the first problem (choosing best feature transformation and classifier), I computed accuracy scores and runtime for different optimized pipelines. The results for accuracy and runtime are shown below. 
 
 Accuracy Values for Different Classifiers and Transformations
+
 ![alt text](/images/image_12.JPG?raw=true)
 
 Runtime for Different Classifiers and Transformations
+
 ![alt text](/images/image_13.JPG?raw=true)
 
 Clustering Results: 
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I ran k-means clustering on both PCA and Sparse PCA representations of the data. For both of the methods, I created a scatter plot of the first two principal components. 
 
 ![alt text](/images/image_4.png?raw=true)
@@ -92,34 +95,41 @@ Discussion for Problem 1 (Feature Transformation and Classifier):
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The runtime for each of the pipelines was drastically different. The pipeline that cost the most were the Sparse PCA ones by far. They both took around 5 seconds where the lower cost standard scaler and PCA pipelines only cost 200-300 ms. This is a large difference in computation cost. 
 
 Discussion for Problem 2 (Clustering):
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I will be reviewing clusters from both the PCA and Sparse PCA clustering to discuss the results for the second problem. 
 
 PCA Cluster 1 - High Scoring Point/Shooting Guards 
+
 ![alt text](/images/image_6.png?raw=true)
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This cluster was made up of historical high scoring point guards and shooting guards who also had a moderate average of rebounds and assists. Their heights range from 195-200 cm. 
 
 PCA Cluster 5 - Dominant Power Forwards/ Centers
+
 ![alt text](/images/image_7.png?raw=true)
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This cluster characterizes power forwards and centers who were dominant in the “paint”. The “paint” means the area near the basketball hoop and scoring through layups or dunks. These players are very tall, 210-215 cm and very heavy 117+kg. They also score in heavy volumes and have historically high rebound averages (above 10 per game on average).
 
 PCA Cluster 7 - Defensive Centers
+
 ![alt text](/images/image_8.png?raw=true)
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cluster 7 shows the outlier that was referred to earlier. It was questionable how a player who only averages 12 points and less than two assists could possibly make the all star team. However, this cluster explains this outlier. Dikembe Mutombo is the exemplary player for this cluster. The player was a defensive threat with very high rebound averages. Although his offensive output wasn’t high, he is known as a very high level defensive player, thus making the all star team based on defensive qualities. 
 
-Sparse PCA Cluster 1 - High Scoring Power Forwards 
+Sparse PCA Cluster 1 - High Scoring Power Forwards
+
 ![alt text](/images/image_9.png?raw=true)
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;By looking at the cluster numbers it was made clear that they weren’t the same numbering as PCA. Cluster 1 for Sparse PCA seemed to be made up of high scoring power forwards. This has the closest relation to cluster 2 or 5 from PCA. Therefore, it is clear that the numbers are different, but the classifications still separated the player types well. 
 
 Sparse PCA Cluster 5 - Defensive Centers 
+
 ![alt text](/images/image_10.png?raw=true)
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cluster 5 for Sparse PCA was similar to cluster 7 for PCA. This cluster characterizes the outliers of the all star players who are very good at defense but have a low offensive output. 
 
 Sparse PCA Cluster 6 - Dominant Power Forwards / Centers
+
 ![alt text](/images/image_11.png?raw=true)
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;For the last Sparse PCA cluster that I wanted to show, I wanted to find the cluster that was similar to the PCA cluster 5. For Sparse PCA it is cluster 6 and I chose this cluster to show the similarity between the PCA classifications and the Sparse PCA classifications. I wasn’t able to find major differences in how the clusters were characterized. They mainly had the same clusters except were numbered differently. Therefore, both Sparse PCA and PCA are both valid methods for clustering and classifying what kind of players become all stars. 
