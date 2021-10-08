@@ -8,8 +8,8 @@ Final Project (creative/open-ended) for MTH123 "Math for Data Science" course at
 * matplotlib: For plotting data 
 
 ## Data Used 
-* Kaggle Dataset: NBA All Star Game 2000-2016 - www.kaggle.com/fmejia21/nba-all-star-game-20002016
-* Kaggle Dataset: NBA Players - www.kaggle.com/justinas/nba-players-data
+* NBA All Star Game 2000-2016 - www.kaggle.com/fmejia21/nba-all-star-game-20002016
+* NBA Players - www.kaggle.com/justinas/nba-players-data
 
 ## Abstract
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This paper will be looking into the classification of NBA all star players based on their season statistics. It will find the best feature transformation and classifier that has the highest accuracy for correctly classifying all star players from their statistics. The second problem the paper will be addressing is if all star players can be separated into groups based on their characteristics. This paper will be focusing on Sparse PCA and PCA feature representations for classification and visualization. 
